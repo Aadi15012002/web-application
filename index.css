@@ -1,0 +1,227 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    
+}
+body{
+    /* background-image: url("https://i.pinimg.com/originals/98/52/bf/9852bfd0c35811869d02ca151dd82b6a.jpg"); */
+    background-image: url("https://dannyharper2.com/go-canes/images/background-web-design.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.login{
+    padding: 20px;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%); 
+    color: white;
+    margin: auto;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 25px;
+    
+
+    
+}
+.container h1{
+    color: rgb(255, 123, 0);
+    text-align: center;
+    font-size: 50px;
+}
+.login h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: darkturquoise;
+}
+.input{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0;
+    padding: 20px;
+}
+.login input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.login input:hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: rgb(218, 255, 255);
+}
+.button{
+    margin-top: 30px;
+}
+.btn{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 0 120px;
+    width: 50%;
+    border-radius: 20px;
+    background-color:rgb(51, 207, 207); ;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(51, 207, 207);
+    box-shadow: 2px 2px 5px #555;
+}
+.signup{
+    font-size: 15px;
+    text-align: center;
+}
+.menu{
+    position: relative;
+    background-color: #042331;
+    color: white;
+    height: 90vh;
+    width: 250px;
+    padding: 40px;
+    font-size: 30px;
+    list-style: none;
+    font-weight: bold;
+}
+.menu header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background-color: #063146;
+}
+.menu li{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+
+}
+.menu li:hover{
+    background-color: #0c4561;
+}
+.user{
+    height: 200px;
+    width:200px;
+    position:relative;
+    border:5px solid #fff;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    margin: 100px auto;
+    overflow:hidden;
+    background-image: url("https://www.sovereignbuilding.com.au/getattachment/The-Director/Qualifications/dummy-user.jpg.aspx");
+}
+.my_file{
+    position: absolute;
+    bottom:0;
+    outline: none;
+    color: transparent;
+    width:100%;
+    box-sizing:border-box;
+    padding: 15px 120px;
+    cursor: pointer;
+    transition: 0.5s;
+    /* background-color: rgba(0,0,0,0.5); */
+}
+.my_file::-webkit-file-upload-button{
+    visibility: hidden;
+}
+.my_file::before{
+    content: url("https://cdn-icons-png.flaticon.com/512/6973/6973001.png") width="30";
+    
+    color: #fff; 
+}
+.devinfo{
+    display: flex;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  
+
+}
+.card{
+    margin-left: 300px;
+    height: 80vh;
+    width: 40vw;
+    background-color: #063146;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    
+}
+.main{
+    width: 80vw;
+    height: 70vh;
+}
+.feed{
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: #0c4561;
+    width: 50vw;
+    height: 60vh;
+}
+.pic{
+    width: 300px;
+    height: 300px;
+    margin:40px;
+    background-color: antiquewhite;
+    border:5px solid rgb(224, 10, 46);
+}
+.box{
+    width: 80vw;
+    height: 100vh;
+    
+
+}
+.head{
+    padding: 20px;
+    width:100%;
+    height: 50px;
+    background-color:#063146;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.chat{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0,0,0,.9);
+    
+}
+.bottom{
+    width: 100%;
+    height: 60px;
+    background-color: #0c4561;
+}
+#message{
+    margin:10px;
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+}
+.btns{
+    margin: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(34, 98, 172);
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 25px;
+
+}
